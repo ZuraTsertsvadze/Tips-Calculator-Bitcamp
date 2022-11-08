@@ -22,14 +22,14 @@
 .top-input {
     background-color: #F3F9FA;
 
-    padding: 0 17px;
-    padding-left: 35px;
-    height: 48PX;
+    padding: 0 1.0625rem;
+    padding-left: 2.1875rem;
+  
 
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     text-align: right;
     color: #00474B;
     outline: none;
@@ -40,9 +40,10 @@
 
 
 .logo-cont {
-    margin-top: 50px;
-    margin-bottom: 41px;
+    margin-top: 3.125rem;
+    margin-bottom: 2.5625rem;
 }
+
 
 
 .percent {
@@ -50,15 +51,15 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 50% 50%;
-    column-gap: 16px;
-    row-gap: 16px;
+    column-gap: 1rem;
+    row-gap: 1rem;
 
 
 }
 
 .percent-cont {
 
-    margin-top: 32px;
+    margin-top: 2rem;
 
 
 
@@ -66,34 +67,34 @@
 
 
 .percent-num {
-    height: 48px;
+    height: 3rem;
 
     background-color: hsl(183, 100%, 15%);
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
 
 
 }
 
 .custume-input {
 
-    height: 48px;
+    height: 3rem;
 
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     text-align: right;
     color: #547878;
     background-color: #F3F9FA;
     outline: none;
     border: none;
-    padding-right: 15px;
+    padding-right: 0.9375rem;
 
 }
 
@@ -105,11 +106,11 @@
 
 
 .main {
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
     width: 100%;
     background: #FFFFFF;
-    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
-    border-radius: 25px 25px 0px 0px;
+    box-shadow: 0rem 2rem 2.6875rem rgba(79, 166, 175, 0.200735);
+    border-radius: 1.5625rem 1.5625rem 0rem 0rem;
 
 
 
@@ -117,18 +118,21 @@
 
 .bottom-input {
 
+
     background-color: #F3F9FA;
-    border-radius: 5px;
-    height: 48px;
+    border-radius: 0.3125rem;
+    height: 3rem;
     width: 100%;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
     text-align: right;
     color: #00474B;
     border: none;
     outline: none;
-    padding: 0 17px;
+    padding: 0 1.0625rem;
+
+    padding-left: 2.1875rem;
 
 }
 
@@ -169,10 +173,10 @@
     display: flex;
 
     font-weight: 700;
-    font-size: 32px;
-    line-height: 47px;
+    font-size: 2rem;
+    line-height: 2.9375rem;
     text-align: right;
-    letter-spacing: -0.666667px;
+    letter-spacing: -0.0417rem;
 
     color: #26C2AE;
 
@@ -181,26 +185,27 @@
 }
 
 
+
 .second-cont {
     background-color: #00474B;
     width: 100%;
-    margin-top: 32px;
-    padding: 39px 24px 24px 24px;
-    border-radius: 15px;
+    margin-top: 2rem;
+    padding: 2.4375rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 0.9375rem;
 
 }
 
 
 .reset {
     background-color: #26C2AE;
-    border-radius: 5px;
-    height: 48px;
+    border-radius: 0.3125rem;
+    height: 3rem;
     width: 100%;
     border: none;
-    margin-top: 33px;
+    margin-top: 2.0625rem;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
 
 
     text-align: center;
@@ -210,8 +215,8 @@
 
 .first {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #FFFFFF;
 
 
@@ -222,8 +227,8 @@
 
 .second {
 
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 0.8125rem;
+    line-height: 1.1875rem;
     color: #7F9D9F;
 
 }
@@ -238,8 +243,8 @@
 .dollar-svg {
     pointer-events: none;
     position: absolute;
-    top: 46px;
-    left: 19px;
+    top: 2.875rem;
+    left: 1.1875rem;
 
 
 }
@@ -247,8 +252,8 @@
 
 .profile-svg {
     position: absolute;
-    top: 18px;
-    left: 19px;
+    top: 1.125rem;
+    left: 1.1875rem;
     pointer-events: none;
 
 }
@@ -260,10 +265,10 @@
 
 .header {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #5E7A7D;
-    margin-bottom: 6px;
+    margin-bottom: 0.375rem;
 
 
 
@@ -271,13 +276,13 @@
 
 
 .profile-cont {
-    margin-top: 32px;
+    margin-top: 2rem;
 
 }
 
 
 .percent-header {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 
@@ -299,6 +304,24 @@ input[type=number] {
 }
 
 
+@media screen and (min-width: 768px) {
+    
+    .main{
+    
+        width: 100%;
+        max-width: 768px;
+    
+    
+    
+    }
+    
+    
+    }
+    
+
+
+
+
 @media screen and (min-width: 1440px) {
 
 
@@ -307,25 +330,26 @@ input[type=number] {
     }
 
     .main {
-        width: 920px;
-        column-gap: 48px;
+        width: 57.5rem;
+        column-gap: 3rem;
         display: flex;
-        padding: 32px;
-        border-radius: 25px;
+        padding: 2rem;
+        border-radius: 1.5625rem;
+        max-width: none;
     }
 
     .first-cont {
 
-        width: 379px;
+        width: 23.6875rem;
 
     }
 
     .second-cont {
-        padding: 40px;
+        padding: 2.5rem;
 
-        min-width: 417px;
+        min-width: 26.0625rem;
         width: 100%;
-        height: 413px;
+        height: 25.8125rem;
         align-items: center;
         justify-content: space-between;
         margin-top: 0;
@@ -343,7 +367,7 @@ input[type=number] {
 
     .percent {
 
-        grid-template-columns: 117px 117px 117px;
+        grid-template-columns: 7.3125rem 7.3125rem 7.3125rem;
         grid-template-rows: auto auto;
 
     }
@@ -352,10 +376,10 @@ input[type=number] {
     .amount-value {
 
         font-weight: 700;
-        font-size: 48px;
-        line-height: 71px;
+        font-size: 3rem;
+        line-height: 4.4375rem;
         text-align: right;
-        letter-spacing: -1px;
+        letter-spacing: -0.0625rem;
         display: flex;
         flex-wrap: nowrap;
 
@@ -365,3 +389,15 @@ input[type=number] {
     }
 
 }
+
+
+
+
+.percent-num:hover{
+    cursor: pointer;
+    background-color: #9FE8DF;
+    color: #00474B;
+
+}
+
+
